@@ -21,3 +21,7 @@
 
 - Added analyse and format in composer.json scripts
 - Updated README.md
+
+## 1.0.2
+
+- Added missing npm dependency eslint-config-prettier
