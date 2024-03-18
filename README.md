@@ -39,6 +39,8 @@ artisan migrate
 
 - [Laravel IDE Helper](#laravel-ide-helper)
 - [Commitzen](#commitzen)
+- [PHP Stan](#php-stan)
+- [Laravel Pint](#laravel-pint)
 
 ### Laravel IDE Helper
 
@@ -60,6 +62,22 @@ Using commitzen instead of git commit -m "something"
 
 ```sh
 git cz
+```
+
+### PHP Stan
+
+Run PHP Stan
+
+```sh
+composer analyse
+```
+
+### Laravel Pint
+
+Format Laravel code
+
+```sh
+composer format
 ```
 
 ## License

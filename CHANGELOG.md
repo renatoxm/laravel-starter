@@ -16,3 +16,8 @@
 - Added Pretty-quick <https://github.com/prettier/pretty-quick>
 - Added Larastan <https://github.com/larastan/larastan>
 - Added Laravel Pint <https://laravel.com/docs/11.x/pint>
+
+## 1.0.1
+
+- Added analyse and format in composer.json scripts
+- Updated README.md
