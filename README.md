@@ -21,6 +21,7 @@ Laravel 11 Starter project
 - [x] 🍺 [Laravel Pint - An opinionated PHP code style fixer for minimalists](https://laravel.com/docs/11.x/pint)
 - [x] ⚗️ [PHP Stan and Larastan - finding errors in your php code](https://github.com/larastan/larastan)
 - [x] 😸 Github CI/CD workflow - Enforcing code formatting on pull requests
+- [x] 🤖 [Dependabot - automating the dependency update process](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide)
 - [x] ⌨️ .vscode settings - Auto formating options
 
 ## Instalation
