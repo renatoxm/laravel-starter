@@ -34,3 +34,7 @@
 ## 1.0.4
 
 - changed laravel version to 11 in larastan git workflow.
+
+## 1.0.5
+
+- changed from branches to tafs to run git workflow only on new tags.
