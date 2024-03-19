@@ -30,3 +30,7 @@
 
 - remove dependabot from github workflow
 - updated the GitHub workflow from PHPStan to Larastan to prevent PHPStan errors when pushing to GitHub, as they were caused by differing analysis types.
+
+## 1.0.4
+
+- changed laravel version to 11 in larastan git workflow.
