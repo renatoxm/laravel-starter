@@ -1,10 +1,11 @@
-name: PHPStan
+name: Larastan
 
 on:
   push:
+    branches:
+      - '*'
     paths:
       - '**.php'
-      - 'phpstan.neon.dist'
 
 jobs:
   phpstan:
@@ -35,8 +36,8 @@ jobs:
       - name: 'Change Composer config prefer-stable'
         run: 'composer config prefer-stable false'
 
-      - name: 'Require PHPStan dev version'
-        run: 'composer require phpstan/phpstan:@dev --no-update --no-interaction --no-progress'
+      - name: 'Require Larastan dev version'
+        run: 'composer require larastan/larastan:@dev --no-update --no-interaction --no-progress'
 
       - name: 'Install highest dependencies from composer.json'
         run: "composer update --with='laravel/framework:${{ matrix.laravel }}' --no-interaction --no-progress"

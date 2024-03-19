@@ -25,3 +25,8 @@
 ## 1.0.2
 
 - Added missing npm dependency eslint-config-prettier
+
+## 1.0.3
+
+- remove dependabot from github workflow
+- updated the GitHub workflow from PHPStan to Larastan to prevent PHPStan errors when pushing to GitHub, as they were caused by differing analysis types.
